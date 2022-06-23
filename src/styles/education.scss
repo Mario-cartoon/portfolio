@@ -1,0 +1,18 @@
+.education{
+    &__content-text{
+        display: flex; 
+       small{
+           padding-left: 10px;
+           align-self: center;
+           color: rgb(172, 172, 172);
+            font-style: italic;
+        }
+        
+    }
+    span{
+        font-size: 20px;
+    } 
+}
+marquee{
+    height: 99vh;
+}

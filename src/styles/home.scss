@@ -1,0 +1,33 @@
+.home{
+    &__container{
+        width: 100%;
+        display:flex;
+        justify-content:space-between;
+    }
+    &__content-item{ 
+        width: 100%;
+        h1{
+            width: 500px;
+            margin-left:15%;
+            font-size: 70px;
+            text-align: left;
+        }
+        p{
+            font-family: 'Poiret One', cursive;
+        }
+    }
+    &__sub-title{ 
+        padding-left: 15%;
+        text-align: left; 
+        font-size: 22px;
+    }
+    &__text-skills{
+        text-align: left;
+        margin-left: 15%;
+        span{
+            font-family: 'Poiret One', cursive;
+
+        }
+        
+    }
+}

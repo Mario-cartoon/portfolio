@@ -1,0 +1,19 @@
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+.skills__item-text{
+    height:50px;
+    border:1px solid #ffffff00;
+    width:100px;
+    
+    p{
+        font-size: 18px;
+    }
+}

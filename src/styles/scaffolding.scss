@@ -1,0 +1,35 @@
+#app {
+  display: flex;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: white; 
+    
+  }
+  body{
+    margin: inherit;
+    background-color: #151621;
+    font-family: 'Nunito', sans-serif; 
+  }
+  h1{
+    font-size: 60px;
+    font-family: 'Didact Gothic', sans-serif; 
+  }
+  .cool__backgraund{
+       background: linear-gradient(-45deg, #2e2d69, #680269, #024661, #6f8aec);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+  }
+  @keyframes change{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }

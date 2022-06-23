@@ -1,0 +1,85 @@
+.social-links{
+    &__container{
+        display: flex;
+        flex-direction: row;
+        // border: 1px solid red;
+
+        div{
+            padding-left: 2px;
+            align-self: center;
+        }
+    }
+    &__item-fontAwsm{
+        padding-top: 10px;
+    }
+    &__skills-content{
+        display:flex;
+        justify-content:space-around;
+         width:100%;
+    }
+    &__content{
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+        padding-bottom: 5px;
+        box-shadow: 0px 0px 10px 1px #27293d;
+        // border-radius: 20px;
+        border-top-left-radius: 20px;
+        h4{
+            color: #27293d;
+            padding-left: 10px;
+        }
+    }
+    &__button{
+        width: 20%;
+        padding: 10px;
+        background-color: #00000000;
+        border: 1px solid #53696e79;
+        color: rgba(255, 255, 255, 0.562);
+    }
+   
+}
+#Telegram,
+#GitHub,
+#Email,
+#Figma{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.842);
+    box-shadow: 2px 2px 2px #00000080, 
+                10px 1px 12px #00000080,
+                2px 2px 10px #00000080,
+                2px 2px 3px #0000003b,
+                inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080;
+    border-radius: 50%;
+    padding: 7px 9px;
+    margin: 0 20px;
+    animation: animate 3s linear infinite;
+    box-shadow:0 0px 1px #0072ff, 0 0 5px #0072ff;
+    
+    text-shadow:  0 0 50px #0072ff, 0 0 200px #0072ff;
+    
+}
+
+#Telegram{
+    animation-delay: 0.3s;
+}
+#GitHub{
+    animation-delay: 0.7s;
+}
+#Email,
+#Figma{
+    animation-delay: 0.1s;
+}
+
+@keyframes animate{
+    from{
+        filter:hue-rotate(0deg);
+    }
+    to{
+        filter:hue-rotate(360deg);
+    }
+}
+

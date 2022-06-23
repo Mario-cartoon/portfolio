@@ -1,0 +1,171 @@
+
+$body-color: red;
+.pidor{
+    color: $body-color;
+    &_2{
+        color: forestgreen;
+    }
+}
+
+
+.navigation{
+    display: flex;
+    // position:fixed;
+    // justify-content: center;
+    // align-items: center;
+    position:fixed;
+    width: 50px;
+    height: 100vh;
+    background-color: #151621;
+    color: white;
+    box-shadow: 0px 0px 10px 1px rgb(12 10 19);
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 60px;
+        padding: 0;
+    }
+    ul li{
+        position: relative;
+        list-style: none;
+        width: 50px;
+        z-index: 1;
+        // padding: 3px;
+        // background-color: gray;
+    }
+    .nav__item{
+        margin: 4px;
+        // background-color: red;
+        // box-shadow:  0px 0px 10px 1px #27293d;
+        box-shadow: 0px 0px 7px 1px #10101a inset, 0px 0px 7px 1px #1a1a27;
+        border-radius: 20%;
+        color: #10101a;
+        .icon{
+            // background-color: rgb(20, 8, 27);
+            
+            padding: 10px;
+            
+            font-size: 20px;
+            // color: #31354e;
+            // color: #1111b8;
+             cursor: pointer;
+//   background: pink;
+// 	background: -webkit-radial-gradient(33% 100% circle, #515ECF 4%, #9B36B7 30%, #D92E7F 62%, #F15245 85%, #FED373);
+// 	background: radial-gradient(circle at 33% 100%, #ff3be7 4%, #ff3be7 28%, #03ffe8 62%, #F15245 85%, #FED373);
+// 	-webkit-background-clip: text;
+// 	-webkit-text-fill-color: transparent;
+        }
+    }
+    .nav__item:hover{
+        // box-shadow:  0px 0px 2px 2px #4d5179 ;
+        color: #515ECF;
+    }
+    .icon:hover{  
+        color: #515ECF;
+//   text-transform: uppercase;
+background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+//   margin: 20px auto;
+    }
+    
+    // li{
+    //     background-color: red;
+    // }
+    
+    
+}
+.gradient-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#6f8aec), to(#a901ef));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+  }
+// .navigation ul li.active .router .icon {
+//     // background-color: red;
+//     transform: translateX(35px);
+    
+// }
+// .indicator{
+//     position: absolute;
+//     top: 28%;
+//     left: 22px;
+//     width: 70px;
+//     height: 70px;
+//     background: white;
+//     border-radius: 50%;
+//     border: 6px solid #1a1521;
+//     transition: 0.5s;
+// }
+// .indicator::before{
+//     content:'';
+//     position: absolute;
+//     top: -31%;
+//     // background: red;
+//     left: 12px;
+//     width: 20px;
+//     height: 20px;
+//     border-bottom-right-radius: 30px;
+//     box-shadow: 5px 2px 0 0 #1a1521;
+
+// }
+// .indicator::after{
+//     content:'';
+//     position: absolute;
+//     top: 102%;
+//     // background: red;
+//     left: 12px;
+//     width: 20px;
+//     height: 20px;
+//     border-top-right-radius: 30px;
+//     box-shadow: 5px -2px 0 0 #1a1521;
+
+// }
+
+// .navigation ul li:nth-child(1).active ~ .indicator {
+//     transform: translateX(calc(70px * 0));
+// }
+
+// .navigation ul li:nth-child(2).active ~ .indicator {
+//     transform: translateX(calc(70px * 1));
+// }
+
+
+
+
+
+
+
+
+
+.linear-gradient {
+    font-family: 'Didact Gothic', sans-serif;
+// font-family: 'Pacifico', cursive;
+// font-family: 'Cormorant Infant', serif;
+    background-image: linear-gradient(-45deg,#f7b500,#b620e0,#32c5ff);
+    background-size: 200% 200%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+}
+.text-fill-transparent {
+    -webkit-text-fill-color: transparent;
+}
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+hr {
+    // margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid rgba(238, 238, 238, 0.185);
+    
+}
