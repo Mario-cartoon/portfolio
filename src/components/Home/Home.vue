@@ -22,10 +22,13 @@
         </div>
         <div class="home__text-skills" style="">
                 <h4>Frontend Development</h4> 
-                <span>HTML, CSS, SASS, Bootstrap, Vue.js.</span> 
+                <span>HTML, CSS, SASS, Bootstrap, Vue.js, Vuex</span> 
             <hr> 
                 <h4>UI\UX Design</h4> 
                 <span>Photoshop, Illustrator, Sketch, Figma, User Research, Usability Testing.</span> 
+            <hr> 
+                <h4>Уверенный пользователь ПК )))</h4> 
+                <span>Быстрообучаемый/ Человек, на которого можно положиться/  Приносящий удачу</span> 
         </div>
         <!-- <button class="social-links__button">About me</button> -->
     </div>

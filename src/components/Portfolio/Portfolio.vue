@@ -1,6 +1,14 @@
 <template>
     <!-- <h1>dsdd</h1> -->
+    
     <div class="portfolio__table">
+        <div class="home__title">
+            <h1 style="margin:0;text-align: left;">
+                <span class="bg-clip-text text-fill-transparent linear-gradient"> Practice 
+                <!-- <font-awesome-icon class="bg-clip-text text-fill-transparent linear-gradient"  icon="fa-solid fa-dice" /> -->
+                </span>
+            </h1>
+        </div>
 <portfolio-table  v-for="item in portfolio" :key="item" :item=item></portfolio-table>
     </div>
     
@@ -33,7 +41,11 @@ export default {
                     stack:['https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg',
                         'https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg',
                         'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
-                        'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg'],
+                        'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
+                        'https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg',
+                        'https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-icon.svg',
+                        'https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg',
+                        'https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg'],
                     pic: require("@/static/voteapp.png")
                 },
                 {
@@ -44,6 +56,28 @@ export default {
                         'https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg',
                         'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg'],
                     pic: require("@/static/nta.png")
+                },
+                {
+                    name:'Service NTA',
+                    desc:'The site is an ERP system, namely a service for downloading, checking and publishing articles. Which implements the collection of statistics. Also, all the necessary functionality for working with the service is implemented from the interface (filters, pagination, chat with the reviewer, deletion and editing, graphical representation for displaying statistics data, data upload, etc.',
+                    // link:'https://www.figma.com/file/IjcaQ9WK2CRLcirZg5MMdj/NTA_ws?node-id=0%3A1',
+                    stack:['https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg',
+                        'https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg',
+                        'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
+                        'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
+                        'https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg',
+                        'https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-icon.svg',
+                        'https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg'],
+                    pic: require("@/static/service.png")
+                },
+                {
+                    name:'Process Mining',
+                    desc:'Team development of new modules for the in-bank Process Mining software library (Python (pandas, dash, graphviz, plotly)).',
+                    // link:'https://www.figma.com/file/IjcaQ9WK2CRLcirZg5MMdj/NTA_ws?node-id=0%3A1',
+                    stack:['https://www.vectorlogo.zone/logos/python/python-icon.svg',
+                    'https://www.vectorlogo.zone/logos/plot_ly/plot_ly-icon.svg',
+                    'https://www.vectorlogo.zone/logos/bitbucket/bitbucket-icon.svg'],
+                    pic: require("@/static/pm.png")
                 },
                 {
                     name:'Unity projects',

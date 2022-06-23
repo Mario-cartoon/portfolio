@@ -3,6 +3,7 @@
         width: 100%;
         display:flex;
         justify-content:space-between;
+        // padding-bottom: ;
     }
     &__content-item{ 
         width: 100%;
@@ -24,6 +25,7 @@
     &__text-skills{
         text-align: left;
         margin-left: 15%;
+        padding-bottom: 30px;
         span{
             font-family: 'Poiret One', cursive;
 
