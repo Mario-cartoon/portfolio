@@ -1,8 +1,12 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true,
+// const { defineConfig } = require('@vue/cli-service')
+// module.exports = defineConfig({
+//   transpileDependencies: true,
 
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/home/'
-    : '/'
-})
+//   publicPath: process.env.NODE_ENV === 'production'
+//     ? '/home/'
+//     : '/'
+// })Mario-cartoon.github.io
+
+module.exports = {
+  publicPath: '/Mario-cartoon.github.io/'
+  }
