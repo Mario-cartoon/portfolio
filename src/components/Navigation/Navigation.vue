@@ -3,7 +3,7 @@
      <ul>
          <li class="list " >
               <div class="nav__item">
-                  <router-link    class="router" to="/home"><font-awesome-icon class="icon"  icon="fa-brands fa-fort-awesome" /></router-link> 
+                  <router-link    class="router" to="/"><font-awesome-icon class="icon"  icon="fa-brands fa-fort-awesome" /></router-link> 
               </div>
          </li>
          

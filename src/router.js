@@ -6,7 +6,7 @@ import Portfolio from "@/components/Portfolio/Portfolio.vue";
 
 const routes = [
   {
-    path: "/home",
+    path: "/",
     name: "Home",
     component: Home,
   },
