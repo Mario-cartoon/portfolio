@@ -15,7 +15,7 @@
                         <img v-for="stack in item.stack" :key="stack" :src=stack alt="">
                     </div>
                     <a v-if="item.link" :href="item.link"><img style="width:30px;" id="Figma" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt=""></a>
-                    
+                    <a v-if="item.linkInt" :href="item.link"><font-awesome-icon style="width:30px; color:rgb(89, 109, 134);" id="Figma" icon="fa-solid fa-link" /></a>
                 </div>
                 <!-- <i class="fa-solid fa-c"></i> -->
             </div>

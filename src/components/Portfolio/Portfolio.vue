@@ -80,11 +80,47 @@ export default {
                     pic: require("@/static/pm.png")
                 },
                 {
-                    name:'Unity projects',
-                    desc:'Projects developed during university studies. Technology stack: Unity, C#, Photon PUN.',
+                    name:'Паруса 360m',
+                    desc:'Project development for 360m',
+                    link:'https://www.figma.com/file/gQ1hXlqRbtTyfvcJySUE43/360m?node-id=0%3A1',
+                    stack:['https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
+                    'https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg',
+                    'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg'],
+                    pic: require("@/static/360.png")
+                },
+                {
+                    name:'Школа-студия Наталии Дунаевой',
+                    desc:'Website development for a studio-school',
                     // link:'https://www.figma.com/file/IjcaQ9WK2CRLcirZg5MMdj/NTA_ws?node-id=0%3A1',
-                    stack:['https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg'],
-                    pic: require("@/static/unity.png")
+                    stack:['https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
+                    'https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg',
+                    'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg'],
+                    pic: require("@/static/school.png"),
+                    linkInt:'https://irkhair.ru/#master'
+                },
+                {
+                    name:'Корпоративный Центр',
+                    desc:'Website development for Sberbank Corporate center.',
+                    // link:'https://www.figma.com/file/IjcaQ9WK2CRLcirZg5MMdj/NTA_ws?node-id=0%3A1',
+                    stack:['https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
+                    'https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg',
+                    'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg'],
+                    pic: require("@/static/cscc.png"),
+                    linkInt:'https://sbcc.ru/'
+                },
+                {
+                    name:'Dashboard',
+                    desc:'UI/UX design Training Project',
+                    link:'https://www.figma.com/file/S2akrRTLLQjTSl4aKOuzBh/DASHBOARD?node-id=0%3A1',
+                    stack:[],
+                    pic: require("@/static/dasboard.png")
+                },
+                {
+                    name:'Smart banking',
+                    desc:'UI/UX design Training Project',
+                    link:'https://www.figma.com/file/GWBJ8lUZc2nzhDEN9aRKiz/STUDY_PRJ?node-id=0%3A1',
+                    stack:[],
+                    pic: require("@/static/smartbaking.png")
                 }
                 // {
                 //     name:'',
